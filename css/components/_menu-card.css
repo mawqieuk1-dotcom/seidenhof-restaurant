@@ -1,0 +1,66 @@
+/* ==================== MENU CARD ==================== */
+.menu-item {
+    background: var(--white);
+    padding: 30px;
+    border-left: 0px solid var(--gold);
+    transition: var(--transition-base);
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+    border-bottom: 1px solid var(--gray-200);
+}
+
+.menu-item:hover {
+    border-left-width: 3px;
+    background: var(--gray-100);
+    transform: translateX(5px);
+}
+
+.menu-item-content {
+    flex: 1;
+}
+
+.menu-item h4 {
+    font-family: var(--font-display);
+    font-size: 20px;
+    color: var(--black);
+    margin-bottom: 6px;
+}
+
+.menu-item-desc {
+    font-size: 14px;
+    color: var(--gray-500);
+    line-height: 1.5;
+}
+
+.menu-item-price {
+    font-family: var(--font-display);
+    font-size: 22px;
+    font-weight: 600;
+    color: var(--gold);
+    white-space: nowrap;
+}
+
+.menu-item-badge {
+    display: inline-block;
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding: 4px 10px;
+    margin-top: 8px;
+    background: var(--gold);
+    color: var(--white);
+}
+
+@media (max-width: 768px) {
+    .menu-item {
+        flex-direction: column;
+        padding: 20px;
+    }
+    
+    .menu-item-price {
+        font-size: 20px;
+    }
+}

@@ -1,0 +1,21 @@
+/* ==================== MAIN STYLESHEET ==================== */
+/* Base */
+@import 'base/_reset.css';
+@import 'base/_variables.css';
+@import 'base/_typography.css';
+@import 'base/_utilities.css';
+
+/* Components */
+@import 'components/_buttons.css';
+@import 'components/_navigation.css';
+@import 'components/_menu-card.css';
+@import 'components/_form.css';
+@import 'components/_footer.css';
+
+/* Sections */
+@import 'sections/_hero.css';
+@import 'sections/_about.css';
+@import 'sections/_menu-section.css';
+@import 'sections/_reservation.css';
+@import 'sections/_gallery.css';
+

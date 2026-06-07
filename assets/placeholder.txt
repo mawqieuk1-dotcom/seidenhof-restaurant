@@ -1,0 +1,28 @@
+=== صور الموقع - Restaurant Seidenhof ===
+
+هذا المجلد مخصص للصور المحلية للموقع.
+للاستخدام الأمثل، استبدل الروابط في الكود بالمسارات المحلية.
+
+الصور المطلوبة (بصيغة WebP للسرعة):
+-------------------------------------------------
+1. hero-bg.webp          - صورة الخلفية للقسم الرئيسي (1920x1080)
+2. interior-1.webp       - صورة داخل المطعم (800x600)
+3. chef.webp             - صورة الشيف في المطبخ (600x800)
+4. dish-signature.webp   - صورة الطبق المميز (600x600)
+5. table-reserved.webp   - صورة طاولة محجوزة (800x600)
+6. gallery-1.webp        - صورة للمعرض (800x1000)
+7. gallery-2.webp        - صورة للمعرض (1000x600)
+8. gallery-3.webp        - صورة للمعرض (600x600)
+9. gallery-4.webp        - صورة للمعرض (600x800)
+10. gallery-5.webp       - صورة للمعرض (600x900)
+
+مصادر صور مجانية عالية الجودة:
+-------------------------------------------------
+- Unsplash: https://unsplash.com (ابحث عن: restaurant, swiss food, fine dining, Zurich)
+- Pexels: https://pexels.com
+- Kaboompics: https://kaboompics.com
+
+تحويل الصور إلى WebP:
+-------------------------------------------------
+- أداة مجانية: https://squoosh.app
+- أو استخدم أمر ImageMagick: magick input.jpg -quality 80 output.webp
