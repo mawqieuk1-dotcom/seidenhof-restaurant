@@ -1,0 +1,36 @@
+{
+    "de": {
+        "restaurant": "Restaurant Seidenhof",
+        "address": "Bahnhofstrasse 42, 8001 Zürich, Schweiz",
+        "phone": "+41 44 200 12 34",
+        "email": "info@seidenhof.ch",
+        "hours_display": "Di–Sa: 11:30–14:00 & 18:00–23:00",
+        "closed": "Geschlossen",
+        "days": {
+            "montag": "Montag",
+            "dienstag": "Dienstag",
+            "mittwoch": "Mittwoch",
+            "donnerstag": "Donnerstag",
+            "freitag": "Freitag",
+            "samstag": "Samstag",
+            "sonntag": "Sonntag"
+        }
+    },
+    "fr": {
+        "restaurant": "Restaurant Seidenhof",
+        "address": "Bahnhofstrasse 42, 8001 Zurich, Suisse",
+        "phone": "+41 44 200 12 34",
+        "email": "info@seidenhof.ch",
+        "hours_display": "Ma–Sa: 11h30–14h00 & 18h00–23h00",
+        "closed": "Fermé",
+        "days": {
+            "montag": "Lundi",
+            "dienstag": "Mardi",
+            "mittwoch": "Mercredi",
+            "donnerstag": "Jeudi",
+            "freitag": "Vendredi",
+            "samstag": "Samedi",
+            "sonntag": "Dimanche"
+        }
+    }
+}
