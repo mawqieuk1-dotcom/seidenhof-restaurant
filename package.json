@@ -1,0 +1,18 @@
+{
+  "name": "seidenhof-restaurant",
+  "version": "1.0.0",
+  "description": "Restaurant Seidenhof - Modern Swiss Cuisine Website",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint . --ext js,html"
+  },
+  "dependencies": {
+    "@vercel/analytics": "^1.4.1"
+  },
+  "devDependencies": {
+    "vite": "^5.4.11"
+  }
+}

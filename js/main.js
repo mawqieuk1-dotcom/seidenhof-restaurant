@@ -5,6 +5,10 @@ import { initReservation } from './modules/reservation.js';
 import { initAnimations } from './modules/animations.js';
 import { initLanguage } from './modules/language.js';
 import { initGallery } from './modules/gallery.js';
+import { inject } from '@vercel/analytics';
+
+// Initialize Vercel Analytics
+inject();
 
 document.addEventListener('DOMContentLoaded', function() {
     
